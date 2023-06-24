@@ -8,7 +8,7 @@ const App = () => {
   const[sum, setSum] = useState(0)
 
   useEffect(()=>{
-      setSum(sum+number)
+      setSum(Number(sum)+Number(number))
   },[number])
 
   return (
